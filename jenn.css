@@ -1,0 +1,68 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 500px;
+    margin: 170px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f78cb5;
+    text-align: center;
+}
+
+.nameBox, .inputBox {
+    background-color: #f9f9f9;
+    border: 1px solid #111010;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, sans-serif; /* Ganti font menjadi Arial */
+    font-size: 14px; /* Ukuran font lebih kecil */
+}
+
+.nameBox {
+    background-color: #f50a58;
+    border: 1px solid #0f0d0d;
+    border-radius: 10px;
+    padding: 0px 3px; /* Mengurangi padding atas bawah */
+    margin-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    font-style : italic;
+    font-weight: bold;
+    margin-bottom: 8px; /* Menambahkan jarak bawah */
+    width: 60%; /* Mengurangi lebar */
+    margin-left: auto; /* Membuat box terletak di tengah secara horizontal */
+    margin-right: auto; /* Membuat box terletak di tengah secara horizontal */
+}
+
+.nameBox p {
+    margin: 5px; /* Merapatkan teks */
+}
+
+.userInfo p {
+    margin-top: 1px; /* Menyesuaikan jarak atas antara setiap paragraf (nama dan program studi) */
+    margin-bottom: 1px; /* Menyesuaikan jarak bawah antara setiap paragraf (nama dan program studi) */
+}
+
+input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6b1414;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
